@@ -14,3 +14,17 @@ h3 {
 a {
   text-decoration: none;
 }
+.art-container {
+ display: flex;
+ gap: 20px;
+ align-items: flex-start;
+ margin-bottom: 30px; 
+}
+.art-container img {
+  width: 250px;
+  height: auto;
+}
+.art-container p {
+  flex: 1;
+  line-height: 1.6;
+}
