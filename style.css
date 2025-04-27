@@ -12,8 +12,11 @@ h3 {
   text-align: center;
 }
 a:hover {
+  color: red;
+}
+a {
   text-decoration: none;
-  color: red;}
+}
 
 
   p::first-letter {
