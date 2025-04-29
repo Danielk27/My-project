@@ -1,23 +1,29 @@
 h1 {
   color: #000;
   text-align: center;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  font-family: serif;
 }
 p {
   color: #000;
-  font-size: 15px;
-  font-family: serif ;
+  font-size: 18px;
+  font-family: gill sans;
 }
 h2 {
   text-align: center;
+  text-decoration: underline;
 }
 h3 {
   text-align: center;
+  text-decoration: underline;
 }
 a:hover {
   color: red;
 }
 a {
   text-decoration: none;
+  
 }
   p::first-letter {
     font-size: 1.5rem;
@@ -32,5 +38,9 @@ a {
     width: 400px;
   }
   .img-Japan:hover {
-    box-shadow: 0 0 2px 1px rgb(89, 150, 170);
+    box-shadow: 2px 2px 2px 2px rgb(89, 150, 170);
+  }
+
+ th { 
+    text-decoration: dotted;
   }
