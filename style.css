@@ -40,7 +40,9 @@ a {
   .img-Japan:hover {
     box-shadow: 2px 2px 2px 2px rgb(89, 150, 170);
   }
-
- th { 
-    text-decoration: dotted;
+  #first-name:hover {
+    transform: translate(50px);
+  }
+  #surname:hover {
+    transform: translate(50px);
   }
